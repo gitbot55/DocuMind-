@@ -52,9 +52,8 @@ class LLM:
         except LLMUnavailable:
             raise
         except Exception as exc:
-          log.exception("Groq call failed")            
-          raise LLMUnavailable("The language model is temporarily unavailable. Please try again.") from exc
-
+            log.exception("Groq call failed")
+            raise LLMUnavailable("The language model is temporarily unavailable. Please try again.") from exc
     def stream(self, messages: list[dict], max_tokens: int = 600, temperature: float = 0.1) -> Iterator[str]:
         client = self._get_client()
         try:
@@ -72,9 +71,8 @@ class LLM:
         except LLMUnavailable:
             raise
         except Exception as exc:
-           log.exception("Groq stream failed")
+            log.exception("Groq stream failed")
             raise LLMUnavailable("The language model is temporarily unavailable. Please try again.") from exc
-
 
 _llm: LLM | None = None
 
