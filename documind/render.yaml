@@ -5,9 +5,9 @@ services:
   - type: web
     name: documind-api
     runtime: docker
-    dockerfilePath: ./backend/Dockerfile
-    dockerContext: ./backend
-    plan: free
+    dockerfilePath: ./documind/backend/Dockerfile
+    dockerContext: ./documind/backend
+    plan: free    
     healthCheckPath: /api/health
     envVars:
       - key: GROQ_API_KEY
