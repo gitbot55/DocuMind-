@@ -1,0 +1,18 @@
+# Render Blueprint: deploys the backend as a Docker web service (free plan).
+# The free disk is temporary: uploads and the index reset on restart, and the app
+# re-creates the demo index from sample_docs/ at startup.
+services:
+  - type: web
+    name: documind-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false   # paste your key in the Render dashboard
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: ALLOWED_ORIGINS
+        sync: false   # your Cloudflare Pages URL, e.g. https://documind.pages.dev

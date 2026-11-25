@@ -1,0 +1,198 @@
+[
+  {
+    "question": "How many days of paid annual leave do full-time employees get?",
+    "expected_answer": "24 days per year",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "How many unused leave days can I carry forward to next year?",
+    "expected_answer": "Up to 5 days",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "By what date must carried-forward leave days be used?",
+    "expected_answer": "By March 31",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "How many paid sick days do employees receive each year?",
+    "expected_answer": "10 paid sick days",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "After how many consecutive sick days is a medical certificate needed?",
+    "expected_answer": "After 3 consecutive days",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "How many weeks of parental leave does the primary caregiver get?",
+    "expected_answer": "16 weeks",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "How many days of bereavement leave for an immediate family member?",
+    "expected_answer": "5 days",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "What are the core working hours?",
+    "expected_answer": "10:00 to 16:00 local time",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 1,
+    "answerable": true
+  },
+  {
+    "question": "How many days a week can employees work remotely?",
+    "expected_answer": "Up to 3 days per week with manager approval",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 1,
+    "answerable": true
+  },
+  {
+    "question": "How long is the probation period for new employees?",
+    "expected_answer": "3 months",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 1,
+    "answerable": true
+  },
+  {
+    "question": "Within how many days must expense claims be submitted?",
+    "expected_answer": "Within 30 days",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 3,
+    "answerable": true
+  },
+  {
+    "question": "What is the daily meal allowance when travelling for work?",
+    "expected_answer": "Up to $60 per day",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 3,
+    "answerable": true
+  },
+  {
+    "question": "What is the maximum hotel reimbursement per night?",
+    "expected_answer": "$180 per night",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 3,
+    "answerable": true
+  },
+  {
+    "question": "For which expense amounts is a receipt required?",
+    "expected_answer": "Every expense above $25",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 3,
+    "answerable": true
+  },
+  {
+    "question": "How often are performance reviews held and in which months?",
+    "expected_answer": "Twice a year, in June and December",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 4,
+    "answerable": true
+  },
+  {
+    "question": "What is the yearly learning budget per employee?",
+    "expected_answer": "$1,200 per year",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 4,
+    "answerable": true
+  },
+  {
+    "question": "What is the notice period after probation?",
+    "expected_answer": "60 days",
+    "expected_doc": "northwind_employee_handbook.pdf",
+    "expected_page": 4,
+    "answerable": true
+  },
+  {
+    "question": "What is the minimum password length?",
+    "expected_answer": "At least 14 characters",
+    "expected_doc": "northwind_it_security_policy.pdf",
+    "expected_page": 1,
+    "answerable": true
+  },
+  {
+    "question": "How often do passwords have to be changed?",
+    "expected_answer": "Every 180 days",
+    "expected_doc": "northwind_it_security_policy.pdf",
+    "expected_page": 1,
+    "answerable": true
+  },
+  {
+    "question": "After how many minutes of inactivity must computers lock?",
+    "expected_answer": "5 minutes",
+    "expected_doc": "northwind_it_security_policy.pdf",
+    "expected_page": 1,
+    "answerable": true
+  },
+  {
+    "question": "Are USB storage devices allowed by default?",
+    "expected_answer": "No, they are disabled by default",
+    "expected_doc": "northwind_it_security_policy.pdf",
+    "expected_page": 2,
+    "answerable": true
+  },
+  {
+    "question": "How quickly must suspected phishing emails be reported?",
+    "expected_answer": "Within 1 hour",
+    "expected_doc": "northwind_it_security_policy.pdf",
+    "expected_page": 3,
+    "answerable": true
+  },
+  {
+    "question": "How fast does the security team respond to a P1 incident?",
+    "expected_answer": "Within 15 minutes",
+    "expected_doc": "northwind_it_security_policy.pdf",
+    "expected_page": 3,
+    "answerable": true
+  },
+  {
+    "question": "Are pets allowed in the office?",
+    "expected_answer": "",
+    "expected_doc": null,
+    "expected_page": null,
+    "answerable": false
+  },
+  {
+    "question": "What is the CEO's yearly salary?",
+    "expected_answer": "",
+    "expected_doc": null,
+    "expected_page": null,
+    "answerable": false
+  },
+  {
+    "question": "Does the company offer stock options to employees?",
+    "expected_answer": "",
+    "expected_doc": null,
+    "expected_page": null,
+    "answerable": false
+  },
+  {
+    "question": "What is the dress code for client meetings?",
+    "expected_answer": "",
+    "expected_doc": null,
+    "expected_page": null,
+    "answerable": false
+  },
+  {
+    "question": "Which cloud provider hosts the company's production servers?",
+    "expected_answer": "",
+    "expected_doc": null,
+    "expected_page": null,
+    "answerable": false
+  }
+]
