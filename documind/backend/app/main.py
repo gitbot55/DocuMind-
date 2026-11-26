@@ -31,3 +31,13 @@ app.add_middleware(
 )
 for r in (health.router, documents.router, chat.router, eval_router.router):
     app.include_router(r)
+
+@app.get("/")
+async def root():
+    return {
+        "message": "Welcome to DocuMind API",
+        "status": "running",
+        "version": "1.0.0",
+        "docs": "/docs",
+        "health": "/api/health"
+    } 
