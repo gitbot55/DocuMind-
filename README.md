@@ -1,4 +1,4 @@
-# 🧠 DocuMind — Enterprise RAG-Based AI Knowledge Assistant
+# 🧠 DocuMind — RAG-Based AI Knowledge Assistant
 
 An AI-powered document question-answering application that enables users to interact with organizational documents using natural language.
 
